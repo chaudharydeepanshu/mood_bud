@@ -6,7 +6,7 @@ MoodBud helps classify emotions in texts.
 
 |  |  |
 | -------------- | -------------- |
-| <img src="https://github.com/chaudharydeepanshu/mood_bud/assets/85361211/f1ae1715-f390-4b28-bb22-9641303a5f34"> | </img> <img src="https://github.com/chaudharydeepanshu/mood_bud/assets/85361211/b3bcfb83-1402-4851-b18f-9f6588683c31"></img> |
+| <img src="https://github.com/chaudharydeepanshu/mood_bud/assets/85361211/f1ae1715-f390-4b28-bb22-9641303a5f34"> | </img> <img src="https://github.com/chaudharydeepanshu/mood_bud/assets/85361211/ca44469b-f087-4ef0-bb0b-09e4e0010c04"></img> |
 
 ## What it uses?
 
