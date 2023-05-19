@@ -1,8 +1,6 @@
-import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
@@ -71,7 +69,7 @@ class Utils {
   }
 
   String calculateSoundex(String word) {
-    if (word == null || word.isEmpty) return '';
+    if (word.isEmpty) return '';
 
     final wordUpper = word.toUpperCase();
 
@@ -269,7 +267,7 @@ class Utils {
       classifiedData[user] = classifications;
     }
 
-    print(classifiedData);
+    // print(classifiedData);
     return classifiedData;
   }
 
@@ -311,7 +309,7 @@ class Utils {
           await loadDictionary('assets/dictionary.txt'), soundexCode);
 
       if (matches.isNotEmpty) {
-        print('Matches for $word: $matches');
+        // print('Matches for $word: $matches');
         correctedWords.add(matches.first);
       } else {
         correctedWords.add(word);
